@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(197, 179, 179);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.container{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    font-family:'Outfit';
+   width:320px;
+   padding: 15px;
+   border-radius: 13px;
+    background-color:white;
+    display:flex;
+    
+    flex-direction:column;
+}
+img{
+    align-items: center;
+    border-radius:12px;
+    width:100%;
+   
+}
+.main{
+    text-align:center;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 23px;
+    color:rgb(61, 55, 55)
+}
+p{
+    font-size:15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 500;
+}
